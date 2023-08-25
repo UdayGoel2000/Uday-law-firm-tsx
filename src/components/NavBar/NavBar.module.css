@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+}
+
+.secondWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+}
+
+.navBarButton {
+    background-color: var(--color-dark);
+    color: var(--color-text);
+    border: 1px solid var(--color-light);
+    padding: 14px 35px;
+}

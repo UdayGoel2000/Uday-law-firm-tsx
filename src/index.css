@@ -1,8 +1,20 @@
+/* dark mode */
+:root .lightMode {
+  --color-primary: ##E3B748;
+  --color-dark: #fff;
+  --color-light: #121212;
+}
+
+/*  */
+
+/* light mode */
 :root {
   --color-primary: ##E3B748;
-  --color-black: #121212;
-  --color-white: #fff;
+  --color-dark: #121212;
+  --color-light: #fff;
 }
+
+/*  */
 
 *,
 *::before,
@@ -22,7 +34,7 @@ body {
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
-  background-color: var(--color-black);
-  color: var(--color-white);
+  background-color: var(--color-dark);
+  color: var(--color-light);
   overflow-x: hidden;
 }
