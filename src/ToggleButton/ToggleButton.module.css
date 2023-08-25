@@ -9,13 +9,8 @@
     visibility: hidden;
 }
 
-/* .toggleDiv>input[type="checkbox"]:checked+.toggleButton {
-    background-color: var(--color-dark);
-} */
-
 .toggleDiv>input[type="checkbox"]:checked+.toggleButton .toggleBall {
     transform: translateX(1rem);
-    /* background-color: var(--color-light); */
 }
 
 .toggleButton {
