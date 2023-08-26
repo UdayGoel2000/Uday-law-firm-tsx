@@ -1,17 +1,22 @@
 /* dark mode */
 :root .lightMode {
-  --color-primary: ##E3B748;
+  --color-primary: #E3B748;
   --color-dark: #fff;
   --color-light: #121212;
+  --color-opacity: rgba(0, 0, 0, .2);
+  --color-dark1: #d6d6d6;
+
 }
 
 /*  */
 
 /* light mode */
 :root {
-  --color-primary: ##E3B748;
+  --color-primary: #E3B748;
   --color-dark: #121212;
   --color-light: #fff;
+  --color-opacity: rgba(255, 255, 255, .2);
+  --color-dark1: #1D1D1D;
 }
 
 /*  */

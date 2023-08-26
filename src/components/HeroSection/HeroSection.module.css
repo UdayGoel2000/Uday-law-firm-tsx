@@ -1,0 +1,81 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 5%;
+    gap: 10%
+}
+
+.secondWrapper {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heroImage {
+    width: 50%;
+    text-align: right;
+}
+
+.mainHeading {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.content {
+    opacity: 30%;
+    font-size: 1.5rem;
+}
+
+.inputMainDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 43px;
+    background-color: var(--color-opacity);
+    width: 70%;
+    height: 8vh;
+    padding: 1%;
+    align-self: start;
+}
+
+.inputDiv {
+    width: 70%;
+    height: 100%;
+    border-radius: 43px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+    align-items: center;
+    padding: 10% 10%;
+    color: var(--color-dark);
+}
+
+.inputDiv input {
+    border: none;
+    background-color: var(--color-opacity);
+    color: var(--color-light);
+
+
+}
+
+.inputDiv input ::placeholder {
+    color: var(--color-dark)
+}
+
+.emaillButton {
+    width: 30%;
+    height: 100%;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-opacity);
+    color: var(--color-dark);
+    padding: auto;
+    border-radius: 43px;
+    font-size: larger;
+    font-weight: 600;
+}
