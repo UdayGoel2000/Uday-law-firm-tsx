@@ -17,7 +17,7 @@ const HeroSection = () => {
         </p>
         <label htmlFor="email" className={styles.inputMainDiv}>
           <div className={styles.inputDiv}>
-            <Message />
+            <Message className={styles.messageIcon} />
             <input
               id="email"
               type="email"
@@ -34,7 +34,7 @@ const HeroSection = () => {
         </label>
       </div>
       <div className={styles.heroImage}>
-        <HeroImage style={{}} />
+        <HeroImage style={{ width: "90%", height: "90%" }} />
       </div>
     </div>
   );

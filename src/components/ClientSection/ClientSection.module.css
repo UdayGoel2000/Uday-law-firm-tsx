@@ -1,0 +1,26 @@
+.wrapper {
+    background-color: var(--color-dark1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5% 0 5%;
+    width: 100%;
+}
+
+.mainHeading {
+    width: 45%;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.leftArrow circle {
+    fill: var(--color-light)
+}
+
+.leftArrow path {
+    fill: var(--color-dark)
+}
+
+.rightArrow path {
+    fill: var(--color-dark)
+}

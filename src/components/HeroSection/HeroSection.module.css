@@ -56,10 +56,15 @@
     color: var(--color-dark);
 }
 
+.messageIcon * {
+    fill: var(--color-light);
+}
+
 .inputDiv input {
     border: none;
     background-color: var(--color-opacity);
     color: var(--color-light);
+    overflow: hidden;
 
 
 }

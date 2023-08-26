@@ -13,10 +13,6 @@
     border-radius: 50%;
 }
 
-.giftIcon * {
-    fill: var(--color-dark)
-}
-
 .card {
     display: flex;
     flex-direction: column;
@@ -39,19 +35,13 @@
     font-weight: 600;
 }
 
+.sub_heading {
+    font-size: 1rem;
+    padding-bottom: 2%;
+}
+
 .content {
     opacity: 30%;
     font-size: 1rem;
-}
-
-.readMore {
-    width: 50%;
-    height: 10%;
-    background-color: var(--color-primary);
-    border: 1px solid var(--color-opacity);
-    color: var(--color-dark);
-    padding: auto;
-    border-radius: 43px;
-    font-size: small;
-    font-weight: 600;
+    padding-top: 2%;
 }
