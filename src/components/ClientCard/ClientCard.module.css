@@ -1,7 +1,7 @@
 .wrapper {
     background-color: var(--color-dark1);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 5% 5% 5% 5%;
     width: 100%;

@@ -12,13 +12,14 @@ const HomePage = () => {
   return (
     <div>
       <ToggleButton />
-      <NavBar />
+      <NavBar Footer={false} />
       <HeroSection />
       <IntroSection />
       <AchivementSection />
       <AreaOfPractise />
       <ClientSection />
       <TeamSection />
+      <NavBar Footer={true} />
     </div>
   );
 };

@@ -6,7 +6,7 @@
     align-items: center;
     padding: 5% 5% 5% 5%;
     width: 100%;
-    gap: 100px
+    gap: 80px
 }
 
 .circleFOrDP {
@@ -27,6 +27,7 @@
 
 .card:nth-child(2) {
     background-color: var(--color-primary);
+    color: var(--color-dark);
     filter: brightness(100%);
 }
 

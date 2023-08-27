@@ -2,15 +2,20 @@ import React from "react";
 import Logo from "../Logo/Logo";
 import styles from "./NavBar.module.css";
 import { useState } from "react";
+import { ReactComponent as SocialIcon } from "../../assets/SocialIcon.svg";
 
-const NavBar = () => {
+interface Props {
+  Footer: boolean;
+}
+
+const NavBar = ({ Footer }: Props) => {
   const [menuClicked, setMenuClicked] = useState(false);
   const toggleMenu = () => {
     setMenuClicked(!menuClicked);
   };
   return (
     <>
-      <div className={styles.wrapper}>
+      <div className={Footer ? styles.footerWrapper : styles.wrapper}>
         <button className={styles.wrapperMobile} onClick={() => toggleMenu()}>
           <div className={styles.menuMobile}></div>
           <div className={styles.menuMobile}></div>
@@ -23,7 +28,11 @@ const NavBar = () => {
           <p>Practise Areas</p>
           <p>About us</p>
         </div>
-        <button className={styles.navBarButton}>Contact Now</button>
+        {Footer ? (
+          <SocialIcon />
+        ) : (
+          <button className={styles.navBarButton}>Contact Now</button>
+        )}
       </div>
       <div className={styles.dropDown}>
         <ul>
@@ -53,6 +62,15 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
+      {Footer ? (
+        <div className={styles.footerLine}>
+          <p>© 2020 Acme. All right reserved.</p>
+          <p>Privacy Policy</p>
+          <p>Terms of Service</p>
+        </div>
+      ) : (
+        <></>
+      )}
     </>
   );
 };

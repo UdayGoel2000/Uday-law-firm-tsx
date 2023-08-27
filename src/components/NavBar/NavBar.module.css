@@ -7,6 +7,16 @@
     padding: 0 5%;
 }
 
+.footerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-dark1);
+    width: 100vw;
+    height: 100px;
+    padding: 0 5%;
+}
+
 .wrapperMobile {
     display: none;
     width: 55px;
@@ -57,6 +67,15 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.footerLine {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--color-dark1);
 }
 
 @media screen and (max-width:764px) {

@@ -53,7 +53,7 @@ const TeamCard = () => {
           style={{ padding: "8% 8% 0 8%", width: "100%" }}
         />
       ),
-      id: 1,
+      id: 4,
       main_heading: "Colleen",
       sub_heading: "180 Cases",
     },
@@ -65,7 +65,7 @@ const TeamCard = () => {
           style={{ padding: "8% 8% 0 8%", width: "100%" }}
         />
       ),
-      id: 2,
+      id: 5,
       main_heading: "Haldone",
       sub_heading: "212 Cases",
     },
@@ -77,7 +77,7 @@ const TeamCard = () => {
           style={{ padding: "8% 8% 0 8%", width: "100%" }}
         />
       ),
-      id: 3,
+      id: 6,
       main_heading: "Nik Jeo",
       sub_heading: "350 Cases",
     },
