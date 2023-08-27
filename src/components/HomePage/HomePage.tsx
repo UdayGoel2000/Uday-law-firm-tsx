@@ -7,6 +7,7 @@ import AchivementSection from "../AchivementSection/AchivementSection";
 import AreaOfPractise from "../AreaOfPractise/AreaOfPractise";
 import ClientSection from "../ClientSection/ClientSection";
 import TeamSection from "../TeamSectoin/TeamSection";
+import SubscribeSection from "../SubscribeSection/SubscribeSection";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
       <AreaOfPractise />
       <ClientSection />
       <TeamSection />
+      <SubscribeSection />
       <NavBar Footer={true} />
     </div>
   );

@@ -1,0 +1,65 @@
+.main {
+    background-color: var(--color-dark1);
+    padding: 20vh 0;
+    padding-top: 10vh;
+}
+
+.wrapper {
+    background-color: var(--color-secondChild);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+    width: 80%;
+    margin: auto auto;
+}
+
+.mainHeading {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.seconfWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2%;
+    width: 58%;
+}
+
+.seconfWrapper * {
+    padding-left: 16px;
+    font-style: italic;
+    width: 276px;
+    height: 53px;
+    border-radius: 0.5rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border: 1px solid var(--color-light);
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.seconfWrapper *:focus {
+    outline: none;
+    border: 2px solid var(--color-light);
+}
+
+.seconfWrapper input:nth-child(2) {
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+}
+
+.sendButton {
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    color: var(--color-dark1);
+    width: 116px;
+    height: 53px;
+    border-radius: 0px 8px 8px 0px;
+    font-size: medium;
+    font-weight: 700;
+    text-align: center;
+    padding: auto auto;
+}

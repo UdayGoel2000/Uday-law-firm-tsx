@@ -11,10 +11,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-dark1);
     width: 100vw;
     height: 100px;
     padding: 0 5%;
+    padding-top: 10vh;
 }
 
 .wrapperMobile {
@@ -75,7 +75,7 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background-color: var(--color-dark1);
+    /* background-color: var(--color-dark1); */
 }
 
 @media screen and (max-width:764px) {
