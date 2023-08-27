@@ -1,10 +1,12 @@
 .wrapper {
     background-color: var(--color-dark1);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 5% 5% 5% 5%;
     width: 100%;
+    gap: 100px
 }
 
 .circleFOrDP {
@@ -15,18 +17,16 @@
 
 .card {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     border: 1px solid var(--color-light);
-    border-radius: 4%;
+    border-radius: 14px;
     width: 20vw;
-    height: 50Vh;
     padding: 2%;
 }
 
 .card:nth-child(2) {
-    background-color: var(--color-secondChild);
+    background-color: var(--color-primary);
     filter: brightness(100%);
 }
 
@@ -38,10 +38,4 @@
 .sub_heading {
     font-size: 1rem;
     padding-bottom: 2%;
-}
-
-.content {
-    opacity: 30%;
-    font-size: 1rem;
-    padding-top: 2%;
 }

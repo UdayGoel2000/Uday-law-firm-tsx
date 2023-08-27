@@ -6,6 +6,7 @@ import IntroSection from "../IntroSection/IntroSection";
 import AchivementSection from "../AchivementSection/AchivementSection";
 import AreaOfPractise from "../AreaOfPractise/AreaOfPractise";
 import ClientSection from "../ClientSection/ClientSection";
+import TeamSection from "../TeamSectoin/TeamSection";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <AchivementSection />
       <AreaOfPractise />
       <ClientSection />
+      <TeamSection />
     </div>
   );
 };

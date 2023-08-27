@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./ClientCard.module.css";
-import { ReactComponent as JaneCooper } from "../../assets/clients/JaneCooper.svg";
-import { ReactComponent as DevonLane } from "../../assets/clients/DevonLane.svg";
-import { ReactComponent as RobertFox } from "../../assets/clients/RobertFox.svg";
+import JaneCooper from "../../assets/clients/JaneCooper.png";
+import DevonLane from "../../assets/clients/DevonLane.png";
+import RobertFox from "../../assets/clients/RobertFox.png";
 
 const ClientCard = () => {
   const cardDataObj = {
@@ -13,18 +13,46 @@ const ClientCard = () => {
   const cardsData = [
     {
       ...cardDataObj,
-      icon: <JaneCooper />,
+      icon: (
+        <img
+          src={JaneCooper}
+          alt="JaneCooper"
+          style={{ padding: "8% 0 3% 8%", width: "90%" }}
+        />
+      ),
       id: 1,
       main_heading: "Jane Cooper",
     },
-    { ...cardDataObj, icon: <DevonLane />, id: 2, main_heading: "Devon Lane" },
-    { ...cardDataObj, icon: <RobertFox />, id: 3, main_heading: "Robert Fox" },
+    {
+      ...cardDataObj,
+      icon: (
+        <img
+          src={DevonLane}
+          alt="DevonLane"
+          style={{ padding: "8% 0 3% 8%", width: "90%" }}
+        />
+      ),
+      id: 2,
+      main_heading: "Devon Lane",
+    },
+    {
+      ...cardDataObj,
+      icon: (
+        <img
+          src={RobertFox}
+          alt="RobertFox"
+          style={{ padding: "8% 0 3% 8%", width: "90%" }}
+        />
+      ),
+      id: 3,
+      main_heading: "Robert Fox",
+    },
   ];
   return (
     <div className={styles.wrapper}>
       {cardsData.map((cardData) => (
         <div className={styles.card} key={cardData.id}>
-          <div className={styles.circleFOrGift}>{cardData.icon}</div>
+          <div className={styles.circleFOrDP}>{cardData.icon}</div>
           <p className={styles.mainHeading}>{cardData.main_heading}</p>
           <p className={styles.sub_heading}>{cardData.sub_heading}</p>
           <p className={styles.content}>{cardData.content}</p>
