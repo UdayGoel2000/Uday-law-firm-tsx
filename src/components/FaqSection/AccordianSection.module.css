@@ -1,0 +1,70 @@
+.mainFaqDiv {
+    width: 100%;
+    height: 345px;
+    margin: auto;
+}
+
+.accordian {
+    margin-bottom: 80px;
+}
+
+.hr {
+    margin-top: 40px;
+    background-color: var(--color-light);
+}
+
+.accordianTab {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.accordianTitleTab {
+    padding: 5px 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.accordianTitle {
+    width: 90%;
+}
+
+.accordianContent>p {
+    padding: 5px 3px;
+}
+
+.accordianTab>.accordianContent {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    width: 100%;
+    max-height: 0;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.accordianTab>.accordianToggle {
+    display: none;
+}
+
+.accordianArrowIcon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    border-radius: 50%;
+}
+
+.accordianTab>.accordianToggle:checked~.accordianContent {
+    max-height: 100%;
+}
+
+.accordianTab>.accordianToggle:checked~.accordianTitleTab>.accordianArrowIcon {
+    transform: rotate(45deg);
+}
