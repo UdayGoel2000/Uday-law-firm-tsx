@@ -25,7 +25,7 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 2%;
-    width: 58%;
+    width: 80%;
 }
 
 .seconfWrapper * {
@@ -53,7 +53,7 @@
 
 .sendButton {
     background-color: var(--color-primary);
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-light);
     color: var(--color-dark1);
     width: 116px;
     height: 53px;
