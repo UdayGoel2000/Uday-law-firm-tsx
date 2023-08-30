@@ -29,7 +29,6 @@ const ClientSection = () => {
   const swiper = useSwiper();
   const sliderRef = useRef<any | null>(null);
   const handleNext = (next: boolean) => {
-    console.log(sliderRef.current.swiper.slideNext());
     if (!next) sliderRef.current.swiper.slidePrev();
     else sliderRef.current.swiper.slideNext();
     // console.log(next);
