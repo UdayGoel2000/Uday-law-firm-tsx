@@ -1,9 +1,9 @@
 .wrapper {
     background-color: var(--color-dark1);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 5% 0 5%;
+    padding: 0 10% 0 10%;
     width: 100%;
 }
 
@@ -23,4 +23,57 @@
 
 .rightArrow path {
     fill: var(--color-dark)
+}
+
+.wrapper1 {
+    background-color: var(--color-dark1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+    width: 100%;
+}
+
+.circleFOrDP {
+    border: 1px solid var(--color-light);
+    background-color: var(--color-light);
+    border-radius: 50%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border: 1px solid var(--color-light);
+    border-radius: 4%;
+    width: 20vw;
+    height: 50Vh;
+    padding: 5%;
+}
+
+.card:nth-child(2) {
+    background-color: var(--color-secondChild);
+    filter: brightness(100%);
+}
+
+.card:hover {
+    background-color: var(--color-secondChild);
+    filter: brightness(100%);
+}
+
+.cardMainHeading {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sub_heading {
+    font-size: 1rem;
+    padding-bottom: 2%;
+}
+
+.content {
+    opacity: 30%;
+    font-size: 1rem;
+    padding-top: 2%;
 }

@@ -45,3 +45,7 @@ body {
   color: var(--color-light);
   overflow-x: hidden;
 }
+
+.swiper-slide {
+  width: auto !important;
+}
